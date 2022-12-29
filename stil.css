@@ -2,25 +2,26 @@
     margin: 0;
     padding: 0;
 }
-
-
+#foter{
+  width:100%;
+  position: fixed;
+  bottom:0px;
+  text-align: center;
+}
 body {
     
-    background-color:white;
+    background-color:rgb(97, 3, 3);
 
   }
-  .container{
-    background:url(./pic/adliye.jpg);
-    height: 100vh;
-     background-size: 100% 100%;
-  }
-  ul {
+  
+  .menubar {
+    overflow: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     opacity:0.8;
-    background-color: #e0461399;
+    background-color: #00000099;
   }
   
   li {
@@ -34,6 +35,7 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    height:5vh;
   }
   
   li a:hover, .dropdown:hover .dropbtn {
@@ -70,6 +72,13 @@ li a, .dropbtn {
     background-color: rgb(129, 115, 115);
 }
 
-  p{
-    background-color:rgb(255, 255, 255 ,0.8);
-  }
+
+#footer{
+width:100%;
+position: fixed;
+bottom:0;
+background-color: #f1f1f1;
+text-align: center;
+
+}
+
