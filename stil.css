@@ -11,7 +11,8 @@
 body {
     
     background-color:rgb(97, 3, 3);
-
+    position:static;
+    background-size: cover   ;
   }
   
   .menubar {
@@ -79,6 +80,23 @@ position: fixed;
 bottom:0;
 background-color: #f1f1f1;
 text-align: center;
+
+}
+
+p, h1, h2, h3{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+img{
+  margin-left:26vw;
+}
+ img.anasayfa{
+  margin: auto;
+ }
+
+
+.yazı{
+  background-color: rgba(159, 159, 159, 0.5);
 
 }
 

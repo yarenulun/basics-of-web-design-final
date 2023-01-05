@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+.form{
+    background:url(./pic/anket.jpg);
+    height: 100vh;
+     background-size: 100% 100%;
+}
+body{
+
+color:rgb(255, 255, 255);
+font-weight: bold;
+                 
+
+
+}
+   </style>
+</head>
+<body>
+    <div class="form">
+    <form  method="get">
+
+        <table border="5" align="center">
+    
+    <tr>
+         
+         <td Align="center" colspan="2">SAYFAMIZI DEĞERLEMDİRİN</td>
+    </tr>
+    
+    
+        <tr>
+        <td>Adınız :</td>
+        <td><input type="text" name="ad" id="ad" required placeholder="Lütfen Adınızı Girin"></td>
+        </tr>
+        <tr>
+        <td>Soyadınız :</td>
+        <td><input type="text"name="soyad"id="soyad" required placeholder="Lütfen Soyadınızı Girin"></td>
+        </tr>
+        
+        
+            <tr>
+            <td>Cinsiyetiniz:</td>
+            <td><input type="radio"name="cinsiyet" id="cinsiyet1"  value="kadın">
+            <label for="cinsiyet1">Kadın</label>
+            <input type="radio" name="cinsiyet" id="cinsiyet2" value="erkek">
+            <label for="cinsiyet2">Erkek</label>
+            </td>
+            </tr>
+    
+            <tr>   
+            <td>Doğum Tarihiniz:</td>
+            <td><input type="date" name="dtarihi" id="tarih" required></td>
+            </tr>
+    
+            <tr>
+             <td>Mail Adresiniz:</td>
+            <td><input type="email" name="mail" id="mail" required placeholder="örnek@gmail.com"></td>
+             </tr>
+    
+            <tr>
+                <td>sayfamızı Nasıl Buldunuz:</td>
+                <td><input type="radio"name="değerlendirme" id="güzel"  value="güzel">
+                <label for="güzel">Güzel</label>
+                <input type="radio"name="değerlendirme" id="idare eder"  value="idare eder">
+                <label for="idare eder">İdare Eder</label>
+                <input type="radio" name="değerlendirme" id="kötü" value="köttü">
+                <label for="Kötü">Kötü</label>
+                </td>
+                </tr>
+                <tr>
+                    <td>varsa Önerileriniz:</td>
+                      <br>
+                      <td><textarea cols="40" rows="4"></textarea ></td>
+                      </tr>
+    
+                <tr>
+                    <td Align="center"  colspan="2">
+                    <input type="submit" name="kaydet" id="kaydet" value="KAYDET">   
+                    </td>
+                    </tr> 
+            
+    </table>
+    </form>
+</div>
+</body>
+</html>
