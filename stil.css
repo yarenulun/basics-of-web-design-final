@@ -27,6 +27,7 @@ body {
   
   li {
     float:left;
+    box-sizing: border-box;
   }
   
 li a, .dropbtn {
@@ -38,6 +39,15 @@ li a, .dropbtn {
     text-decoration: none;
     height:5vh;
   }
+  
+  @media screen and (max-width: 900px)
+  {
+    li, li a, .menubar{
+    float: none;
+    width: 100vw;
+  }
+}
+
   
   li a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(168, 20, 20);
@@ -86,10 +96,11 @@ text-align: center;
 p, h1, h2, h3{
   margin-left: 5vw;
   margin-right: 5vw;
+  background-color: rgba(146, 103, 194, 0.2);
+  width: fit-content;
 }
-img{
-  margin-left:26vw;
-}
+
+
  img.anasayfa{
   margin: auto;
  }
@@ -100,3 +111,7 @@ img{
 
 }
 
+.foto{
+  margin-left:20vw ; 
+
+}

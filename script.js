@@ -14,14 +14,14 @@ submit.addEventListener('click', function(){
         text.innerHTML="Kayıt Göderildi!!!"
         setInterval(()=>{
             text.innerHTML=""
-        }, 30000)
-        //30 sn sonra yazi kaybolacak
+        }, 5000)
+        //5 sn sonra yazi kaybolacak
     }else{
         text.innerHTML="Eksik bilgi!!!"
         setInterval(()=>{
             text.innerHTML=""
-        }, 30000)
-        //30 sn sonra yazi kaybolacak
+        }, 5000)
+        //5 sn sonra yazi kaybolacak
     }
     inputName.value =""
     inputSurname.value= ""
